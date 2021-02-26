@@ -1,9 +1,9 @@
 import React from 'react';
-import Header from '../../src/Components/HomeComponents/Header';
+import Header from './Reusables.js/Header';
 import Hero from '../../src/Components/HomeComponents/Hero';
 import Blog from './HomeComponents/Blog';
 import Feedback from './HomeComponents/Feedback';
-import Footer from './HomeComponents/Footer';
+import Footer from './Reusables.js/Footer';
 import Intergaration from './HomeComponents/Intergaration';
 import Plan from './HomeComponents/Plan';
 
