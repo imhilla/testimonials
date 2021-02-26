@@ -4,6 +4,7 @@
   justify-content: space-between;
   align-items: center;
   padding-left: 1.5em;
+  min-height: 80vh;
 }
 
 .leftContainer {
@@ -29,11 +30,12 @@
   width: auto;
   height: 40px;
   border: none;
-  font-size: 20px;
+  font-size: 16px;
   font-style: normal;
   background-color: blue;
   color: white;
   margin: 1em 0;
+  width: 200px;
 }
 
 .heroDescription {
@@ -48,15 +50,15 @@
   max-width: 80%;
 }
 
- .heroimage {
+.heroimage {
   height: auto;
   width: 90%;
-} 
+}
 
 .trapezium {
-  height:330px;  
+  height: 330px;
   min-width: 100px;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 .videoimage {
