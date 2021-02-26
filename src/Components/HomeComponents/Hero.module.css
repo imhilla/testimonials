@@ -65,3 +65,12 @@
   top: 35%;
   right: 60%;
 }
+
+.dotsimage {
+  position: absolute;
+  height: 250px;
+  width: auto;
+  top: -20%;
+  right: -1.5%;
+  z-index: -10;
+}
