@@ -3,6 +3,7 @@ import styles from './Hero.module.css'
 import heroimage from '../../Images/heroimage.jpg'
 import videoimage from '../../Images/videoplayer.png'
 import dotsimage from '../../Images/dotsone.png'
+import dotstwoimage from '../../Images/dotstwo.png'
 
 export default function Hero() {
   return (
@@ -17,7 +18,8 @@ export default function Hero() {
       </div>
       <div className={styles.rightContainer}>
         <img className={styles.videoimage} src={videoimage} alt="videoplayer" />
-        <img className={styles.dotsimage} src={dotsimage} alt="videoplayer" />
+        <img className={styles.dotsimage} src={dotsimage} alt="dots" />
+        <img className={styles.dotstwoimage} src={dotstwoimage} alt="dotstwo" />
         <div className={styles.trapezium}>
           <img className={styles.heroimage} src={heroimage} alt="nathan" />
         </div>
