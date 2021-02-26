@@ -13,10 +13,8 @@
 }
 
 .logo {
-  font-family: "Montserrat", sans-serif;
-  text-transform: uppercase;
-  color: #fff;
-  font-size: 20px;
+  height: 45px;
+  width: auto;
 }
 
 .linkli {
