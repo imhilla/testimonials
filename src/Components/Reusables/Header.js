@@ -15,7 +15,6 @@ export default function Header() {
           <Link className={styles.linkli} to="/pricing">Pricing</Link>
           <Link className={styles.linkli} to="/about">About</Link>
         </ul>
-
         <button className={styles.buttonHeader}>
           Login/Register
         </button>
