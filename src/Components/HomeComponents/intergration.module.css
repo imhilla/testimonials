@@ -6,13 +6,16 @@
 .intergrationRight {
   width: 60%;
   background-color: blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .intergrationLeft {
   display: flex;
   flex-direction: column;
   width: 40%;
-  background-color: red;
 }
 
 .leftheader {
@@ -39,7 +42,7 @@
 
 .leftButtonFirst {
   position: relative;
-  width: 70%;
+  width: 60%;
   height: 40px;
   text-align: start;
   background-color: blue;
@@ -52,7 +55,7 @@
 
 .leftButtonSecond {
   position: relative;
-  width: 70%;
+  width: 60%;
   height: 40px;
   background-color: blue;
   color: white;
@@ -66,7 +69,7 @@
   position: absolute;
   height: 30px;
   width: auto;
-  left: 1%;
+  left: 3%;
   top: 10%;
 }
 
@@ -74,6 +77,19 @@
   position: absolute;
   height: 30px;
   width: auto;
-  left: 4%;
+  left: 3%;
   top: 12%;
+}
+
+.rightImg {
+  width: 100%;
+  height: auto;
+}
+
+.rightContainer {
+  border-radius: 5%;
+   width: 300px;
+  height: 250px;
+  overflow: hidden;
+  background-color: red;
 }
