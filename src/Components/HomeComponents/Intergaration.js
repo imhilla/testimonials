@@ -2,16 +2,27 @@ import React from 'react';
 import intergrationImg from '../../Images/logocam.png'
 import settingImg from '../../Images/setting.png'
 import rightImg from '../../Images/womansmiling.jpg'
+import contactImg from '../../Images/contact.png'
+import micImg from '../../Images/mic.png'
+import videoImg from '../../Images/rightcamera.png'
+import dotedImg from '../../Images/dotsone.png'
+
 import styles from '../../Components/HomeComponents/intergration.module.css';
 
 export default function Intergration() {
   return (
     <div className={styles.intergrationContainer}>
       <div className={styles.intergrationRight}>
-        <div className={styles.rightContainer}>
-          <img className={styles.rightImg} src={rightImg} alt="imgright" />
+        <div className={styles.rightFade}>
+          <div className={styles.rightContainer}>
+            <img className={styles.rightImg} src={rightImg} alt="imgright" />
+          </div>
+          <div className={styles.itergrationImgContainer}>
+            <img className={styles.contactImg} src={contactImg} alt="imgright" />
+            <img className={styles.micImg} src={micImg} alt="imgright" />
+            <img className={styles.videoImg} src={videoImg} alt="imgright" />
+          </div>
         </div>
-        <div>Images</div>
       </div>
       <div className={styles.intergrationLeft}>
         <h1 className={styles.leftheader}>
