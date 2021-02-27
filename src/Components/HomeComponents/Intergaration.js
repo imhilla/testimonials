@@ -5,7 +5,7 @@ import rightImg from '../../Images/womansmiling.jpg'
 import contactImg from '../../Images/contact.png'
 import micImg from '../../Images/mic.png'
 import videoImg from '../../Images/rightcamera.png'
-import dotedImg from '../../Images/dotsone.png'
+import dotedBottomImg from '../../Images/dotstwo.png';
 
 import styles from '../../Components/HomeComponents/intergration.module.css';
 
@@ -22,6 +22,7 @@ export default function Intergration() {
             <img className={styles.micImg} src={micImg} alt="imgright" />
             <img className={styles.videoImg} src={videoImg} alt="imgright" />
           </div>
+          <img className={styles.dotedBottomImg} src={dotedBottomImg} alt="imgright" />
         </div>
       </div>
       <div className={styles.intergrationLeft}>
