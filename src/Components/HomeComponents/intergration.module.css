@@ -1,0 +1,79 @@
+.intergrationContainer {
+  display: flex;
+  height: 100vh;
+}
+
+.intergrationRight {
+  width: 60%;
+  background-color: blue;
+}
+
+.intergrationLeft {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  background-color: red;
+}
+
+.leftheader {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 49px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+
+.leftdescription {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+
+.leftButtonFirst {
+  position: relative;
+  width: 70%;
+  height: 40px;
+  text-align: start;
+  background-color: blue;
+  color: white;
+  border: none;
+  margin-bottom: 2em;
+  padding-left: 4em;
+  font-family: "Montserrat", sans-serif;
+}
+
+.leftButtonSecond {
+  position: relative;
+  width: 70%;
+  height: 40px;
+  background-color: blue;
+  color: white;
+  border: none;
+  text-align: start;
+  font-family: "Montserrat", sans-serif;
+  padding-left: 4em;
+}
+
+.intergrationImg {
+  position: absolute;
+  height: 30px;
+  width: auto;
+  left: 1%;
+  top: 10%;
+}
+
+.settingImg {
+  position: absolute;
+  height: 30px;
+  width: auto;
+  left: 4%;
+  top: 12%;
+}

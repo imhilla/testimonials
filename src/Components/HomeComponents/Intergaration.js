@@ -1,16 +1,29 @@
-import React from 'react'
+import React from 'react';
+import intergrationImg from '../../Images/logocam.png'
+import settingImg from '../../Images/setting.png'
+import styles from '../../Components/HomeComponents/intergration.module.css';
 
-export default function Intergaration() {
+export default function Intergration() {
   return (
-    <div>
-      <div></div>
-      <div>
-        <h1>
+    <div className={styles.intergrationContainer}>
+      <div className={styles.intergrationRight}>Right section</div>
+      <div className={styles.intergrationLeft}>
+        <h1 className={styles.leftheader}>
           Get Clients to Give You Elaborate Testimonials
         </h1>
-        <p>
-          Testimonials is a simple platform that allows others to make your brand trustworthy and believable
+        <p className={styles.leftdescription}>
+          Make your brand trustworthy and believable by recording videos.
+          Videos may be accompamied with text descriptions.
         </p>
+        <button className={styles.leftButtonFirst}>
+          <img className={styles.intergrationImg} src={intergrationImg} alt="imgtext" />
+          Record testimonial
+        </button>
+        <button className={styles.leftButtonSecond}>
+          <img className={styles.settingImg} src={settingImg} alt="imgtext" />
+        Easy to set up
+        </button>
+        <div></div>
       </div>
     </div>
   )
