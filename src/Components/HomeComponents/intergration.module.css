@@ -1,6 +1,7 @@
 .intergrationContainer {
   display: flex;
   height: 100vh;
+  background-color: red;
 }
 
 .intergrationRight {
@@ -9,6 +10,7 @@
   flex-direction: column;
   align-items: center;
   padding-top: 3em;
+  background-color: blue;
 }
 
 .intergrationLeft {
@@ -18,9 +20,12 @@
 }
 
 .rightFade {
-  background-color: white;
-  padding: 1em;
+  display: flex;
+  flex-direction: row;
   border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 90%;
+  padding: 1em;
 }
 
 .leftheader {
@@ -93,10 +98,9 @@
 
 .rightContainer {
   border-radius: 5%;
-   width: 300px;
+  width: 300px;
   height: 250px;
   overflow: hidden;
-  background-color: red;
 }
 
 .itergrationImgContainer {
@@ -106,9 +110,11 @@
   margin: 1em;
 }
 
-.micImg, .videoImg, .contactImg {
-  width: 50px;
-  height: 50px;
+.micImg,
+.videoImg,
+.contactImg {
+  width: 45px;
+  height: 45px;
   padding: 0.5em;
 }
 
@@ -119,4 +125,13 @@
   z-index: -130;
   bottom: -83%;
   left: 15%;
+}
+
+.rightImageContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.rightImageOne {
+
 }

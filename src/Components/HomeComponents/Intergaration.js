@@ -5,7 +5,9 @@ import rightImg from '../../Images/womansmiling.jpg'
 import contactImg from '../../Images/contact.png'
 import micImg from '../../Images/mic.png'
 import videoImg from '../../Images/rightcamera.png'
-import dotedBottomImg from '../../Images/dotstwo.png';
+import rightImgOne from '../../Images/womansmiling.jpg'
+
+// import dotedBottomImg from '../../Images/dotstwo.png';
 
 import styles from '../../Components/HomeComponents/intergration.module.css';
 
@@ -14,16 +16,32 @@ export default function Intergration() {
     <div className={styles.intergrationContainer}>
       <div className={styles.intergrationRight}>
         <div className={styles.rightFade}>
-          <div className={styles.rightContainer}>
-            <img className={styles.rightImg} src={rightImg} alt="imgright" />
+          <div>
+            <div className={styles.rightContainer}>
+              <img className={styles.rightImg} src={rightImg} alt="imgright" />
+            </div>
+            <div className={styles.itergrationImgContainer}>
+              <img className={styles.contactImg} src={contactImg} alt="imgright" />
+              <img className={styles.micImg} src={micImg} alt="imgright" />
+              <img className={styles.videoImg} src={videoImg} alt="imgright" />
+            </div>
           </div>
-          <div className={styles.itergrationImgContainer}>
-            <img className={styles.contactImg} src={contactImg} alt="imgright" />
-            <img className={styles.micImg} src={micImg} alt="imgright" />
-            <img className={styles.videoImg} src={videoImg} alt="imgright" />
+          <div className={styles.rightImageContainer}>
+            <div className={styles.rightImageOne}>
+            yes
+              {/* <img className={styles.dotedBottomImg} src={rightImgOne} alt="imgright" /> */}
+            </div>
+            <div className={styles.rightImageOne}>
+            no
+              {/* <img className={styles.dotedBottomImg} src={rightImgOne} alt="imgright" /> */}
+            </div>
+            <div className={styles.rightImageOne}>
+            yes
+              {/* <img className={styles.dotedBottomImg} src={rightImgOne} alt="imgright" /> */}
+            </div>
           </div>
-          <img className={styles.dotedBottomImg} src={dotedBottomImg} alt="imgright" />
         </div>
+        {/* <img className={styles.dotedBottomImg} src={dotedBottomImg} alt="imgright" /> */}
       </div>
       <div className={styles.intergrationLeft}>
         <h1 className={styles.leftheader}>
@@ -31,7 +49,7 @@ export default function Intergration() {
         </h1>
         <p className={styles.leftdescription}>
           Make your brand trustworthy and believable by recording videos.
-          Videos may be accompamied with text descriptions.
+          {/* Videos may be accompamied with text descriptions. */}
         </p>
         <button className={styles.leftButtonFirst}>
           <img className={styles.intergrationImg} src={intergrationImg} alt="imgtext" />
