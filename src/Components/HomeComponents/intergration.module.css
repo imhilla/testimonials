@@ -130,6 +130,10 @@
 .rightImageContainer {
   display: flex;
   flex-direction: column;
+  background-color: red;
+  width: 50%;
+  margin: 0 1em;
+  border-radius: 20px;
 }
 
 .rightImageOne {
