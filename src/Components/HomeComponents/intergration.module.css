@@ -134,8 +134,18 @@
   width: 50%;
   margin: 0 1em;
   border-radius: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
 .rightImageOne {
+  height: auto;
+  width: 80%;
+}
 
+.interOne {
+  height: auto;
+  width: 100%;
+  border-radius: 20px;
+  padding: 10px 0;
 }

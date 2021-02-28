@@ -1,11 +1,13 @@
 import React from 'react';
-import intergrationImg from '../../Images/logocam.png'
-import settingImg from '../../Images/setting.png'
-import rightImg from '../../Images/womansmiling.jpg'
-import contactImg from '../../Images/contact.png'
-import micImg from '../../Images/mic.png'
-import videoImg from '../../Images/rightcamera.png'
-import rightImgOne from '../../Images/womansmiling.jpg'
+import intergrationImg from '../../Images/logocam.png';
+import settingImg from '../../Images/setting.png';
+import rightImg from '../../Images/womansmiling.jpg';
+import contactImg from '../../Images/contact.png';
+import micImg from '../../Images/mic.png';
+import videoImg from '../../Images/rightcamera.png';
+import interTwo from '../../Images/interone.jpg';
+import interOne from '../../Images/interone.jpg';
+
 
 // import dotedBottomImg from '../../Images/dotstwo.png';
 
@@ -28,16 +30,10 @@ export default function Intergration() {
           </div>
           <div className={styles.rightImageContainer}>
             <div className={styles.rightImageOne}>
-            yes
-              {/* <img className={styles.dotedBottomImg} src={rightImgOne} alt="imgright" /> */}
+              <img className={styles.interOne} src={interOne} alt="imgright" />
             </div>
             <div className={styles.rightImageOne}>
-            no
-              {/* <img className={styles.dotedBottomImg} src={rightImgOne} alt="imgright" /> */}
-            </div>
-            <div className={styles.rightImageOne}>
-            yes
-              {/* <img className={styles.dotedBottomImg} src={rightImgOne} alt="imgright" /> */}
+              <img className={styles.interOne} src={interTwo} alt="imgright" />
             </div>
           </div>
         </div>
