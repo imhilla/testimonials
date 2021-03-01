@@ -1,24 +1,35 @@
 import React, { useState } from 'react';
-import styles from '../HomeComponents/Plan.module.css'
+import styles from '../HomeComponents/Plan.module.css';
+import PlanD from '../PlanComponent/PlanD';
 
 export default function Plan() {
-  const [plan, setPlan] = useState(false)
+  const [plan, setPlan] = useState('monthly')
 
-  const planComponent = plan === false ? (<div>Yes</div>) : (<div>no</div>)
+  const planComponent = plan === 'monthly' ? (
+    <div className={styles.toggleContainer}>
+      <PlanD />
+      <PlanD />
+      <PlanD />
+    </div>) : (
+      <div className={styles.toggleContainer}>
+        <PlanD />
+        <PlanD />
+        <PlanD />
+      </div>)
 
   return (
     <div className={styles.planContainer}>
       <h1 className={styles.planHeader}>Choose a plan that's right for you</h1>
       <h2 className={styles.planHeaderTwo}>We offer yearly and monthly based subscription</h2>
       <div className={styles.planBButton}>
-        <button className={styles.planButton} onClick={() => setPlan(true)}>
+        <button className={styles.planButton} onClick={() => setPlan('monthly')}>
           Monthly
         </button>
-        <button className={styles.planButton} onClick={()=> setPlan(false)}>
+        <button className={styles.planButton} onClick={() => setPlan('yearly')}>
           Yearly
         </button>
       </div>
-      <div>{planComponent}</div>
+      <div className={styles.planTogle}>{planComponent}</div>
     </div>
   )
 }
