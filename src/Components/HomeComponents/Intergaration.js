@@ -5,7 +5,7 @@ import rightImg from '../../Images/womansmiling.jpg';
 import contactImg from '../../Images/contact.png';
 import micImg from '../../Images/mic.png';
 import videoImg from '../../Images/rightcamera.png';
-import interTwo from '../../Images/interone.jpg';
+import interTwo from '../../Images/intertwo.jpg';
 import interOne from '../../Images/interone.jpg';
 
 
@@ -33,7 +33,7 @@ export default function Intergration() {
               <img className={styles.interOne} src={interOne} alt="imgright" />
             </div>
             <div className={styles.rightImageOne}>
-              <img className={styles.interOne} src={interTwo} alt="imgright" />
+              <img className={styles.interTwo} src={interTwo} alt="imgright" />
             </div>
           </div>
         </div>

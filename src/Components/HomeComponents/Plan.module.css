@@ -1,0 +1,43 @@
+.planContainer {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  background-color: red;
+  align-items: center;
+  height: 100vh;
+}
+
+.planHeader {
+  font-family: "Montserrat";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0em;
+  color: white;
+  background-color: blue;
+}
+
+.planHeaderTwo {
+  background-color: blue;
+  font-family: "Montserrat";
+  font-size: 16px;
+  line-height: 27px;
+  color: white;
+}
+
+.planBButton {
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.planButton {
+  font-family: "Montserrat";
+  height: 40px;
+  width: 175px;
+  border-radius: 3px;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+}
