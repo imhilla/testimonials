@@ -6,3 +6,8 @@
   margin: 1em;
   width: 33.3%;
 }
+
+.tick {
+  height: 20px;
+  width: auto;
+}
