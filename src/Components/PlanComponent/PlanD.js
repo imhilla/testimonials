@@ -5,15 +5,17 @@ export default function PlanD(props) {
   // const logo1 = props.logo;
   const logo2 = props.logo2;
   const title = props.title;
-  // const description = props.description ? (<div>{props.description}</div>) : (<div />)
-  
+  const description = props.description ? (<div>{props.description.map((data) => (
+    <div>{data}</div>
+  ))}</div>) : (<div />)
+
   return (
     <div className={styles.planCards}>
       {/* <h1>{logo1}</h1> */}
       <h2>{title}</h2>
       <div>
         <div>{logo2}</div>
-        <div>desr</div>
+        {description}
       </div>
     </div>
   )
