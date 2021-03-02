@@ -10,7 +10,7 @@ export default function PlanD(props) {
       <img className={styles.tick} src={tick} alt="tick" />
       {data}
     </div>
-  ))}<div className={styles.propPrice}>{props.price}</div></div>) : (<div />)
+  ))}<div className={styles.propPrice}>{props.price}</div><div className={styles.time}>Per/{props.time}</div></div>) : (<div />)
 
   return (
     <div className={styles.planCards}>

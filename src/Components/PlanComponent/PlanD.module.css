@@ -1,11 +1,13 @@
 .planCards {
   display: flex;
   flex-direction: column;
-  background-color: green;
   align-items: flex-start;
   margin: 1em;
   width: 33.3%;
   padding-left: 1em;
+  background-color: rgba(202, 202, 202, 0.4);
+  padding: 1em;
+  border-radius: 20px;
 }
 
 .planHeader {
@@ -29,6 +31,11 @@
   margin-right: 0.5em;
 }
 
+.wonder {
+  display: flex;
+  flex-direction: column;
+}
+
 .propPrice {
   color: white;
   font-family: "Montserrat";
@@ -36,9 +43,7 @@
   padding: 1em 0;
 }
 
-.wonder {
-  background-color: red;
-  display: flex;
-  flex-direction: column;
-  position: relative;
+.time {
+  color: white;
+  font-family: "Montserrat";
 }
