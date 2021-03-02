@@ -1,14 +1,18 @@
 import React from 'react';
-import styles from '../HomeComponents/Plan.module.css'
+import styles from '../PlanComponent/PlanD.module.css'
 
 export default function PlanD(props) {
+  // const logo1 = props.logo;
+  const logo2 = props.logo2;
+  const title = props.title;
+  // const description = props.description ? (<div>{props.description}</div>) : (<div />)
   
   return (
     <div className={styles.planCards}>
-      <h1>Logo</h1>
-      <h2>Title</h2>
+      {/* <h1>{logo1}</h1> */}
+      <h2>{title}</h2>
       <div>
-        <div>logo2</div>
+        <div>{logo2}</div>
         <div>desr</div>
       </div>
     </div>

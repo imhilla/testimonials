@@ -59,12 +59,3 @@
   width: 100%;
   /* height: 70vh; */
 }
-
-.planCards {
-  display: flex;
-  flex-direction: column;
-  background-color: green;
-  align-items: center;
-  margin: 1em;
-  width: 33.3%;
-}

@@ -5,16 +5,20 @@ import PlanD from '../PlanComponent/PlanD';
 export default function Plan() {
   const [plan, setPlan] = useState('monthly')
 
+  const desc1 = ['Three testimonies', ]
+  const desc2 = ['unlimitted number of testimonies', 'customer support', 'Money back guarantee']
+  const desc3 = ['Unlimitted number of testimonies', 'Priority customer support', 'Money back guarantee']
+
   const planComponent = plan === 'monthly' ? (
     <div className={styles.toggleContainer}>
-      <PlanD />
-      <PlanD />
-      <PlanD />
+      <PlanD description={desc1} />
+      <PlanD description={desc2} />
+      <PlanD description={desc3} />
     </div>) : (
       <div className={styles.toggleContainer}>
-        <PlanD />
-        <PlanD />
-        <PlanD />
+        <PlanD description={desc1} />
+        <PlanD description={desc1} />
+        <PlanD description={desc1} />
       </div>)
 
   return (
