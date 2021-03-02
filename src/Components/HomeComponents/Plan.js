@@ -5,20 +5,20 @@ import PlanD from '../PlanComponent/PlanD';
 export default function Plan() {
   const [plan, setPlan] = useState('monthly')
 
-  const desc1 = ['Three testimonies', ]
-  const desc2 = ['unlimitted number of testimonies', 'customer support', 'Money back guarantee']
-  const desc3 = ['Unlimitted number of testimonies', 'Priority customer support', 'Money back guarantee']
+  const desc1 = ['Three testimonies', 'Customer support']
+  const desc2 = ['Upto 10 testimonies', 'customer support', 'Money back guarantee']
+  const desc3 = ['Unlimitted testimonies', 'Priority customer support', 'Money back guarantee']
 
   const planComponent = plan === 'monthly' ? (
     <div className={styles.toggleContainer}>
-      <PlanD description={desc1} />
-      <PlanD description={desc2} />
-      <PlanD description={desc3} />
+      <PlanD description={desc1} title={'Basic'} price={'$0'} />
+      <PlanD description={desc2} title={'Pro'} price={'$10'}  />
+      <PlanD description={desc3} title={'Ultimate'} price={'$50'}  />
     </div>) : (
       <div className={styles.toggleContainer}>
-        <PlanD description={desc1} />
-        <PlanD description={desc1} />
-        <PlanD description={desc1} />
+        <PlanD description={desc1} title={'Basic'} price={'$0'}  />
+        <PlanD description={desc2} title={'Pro'} price={'$100'}  />
+        <PlanD description={desc3} title={'Ultimate'} price={'$150'}  />
       </div>)
 
   return (

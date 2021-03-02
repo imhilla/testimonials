@@ -45,8 +45,6 @@
 .toggleContainer {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
   background-color: blue;
   width: 100%;
 }
